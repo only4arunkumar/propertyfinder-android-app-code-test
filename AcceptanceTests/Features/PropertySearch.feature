@@ -10,7 +10,7 @@ Scenario: Filtering the property results by number of bedrooms
 	When I filer the results to show only "1" bedroom properties
 	Then the reslut list should  only contain "1" bedroom properties
 
-Scenario: Sortiing the result list by price "Price (high)"
+Scenario: Sorting the result list by "Price (high)"
 	And I am viewing rental properties
 	When I sort the result list by "Price (high)"
 	Then the result list should be sorted by the highest price first

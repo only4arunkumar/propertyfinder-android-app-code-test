@@ -96,11 +96,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Sortiing the result list by price \"Price (high)\"")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Sorting the result list by \"Price (high)\"")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Property Search")]
-        public virtual void SortiingTheResultListByPricePriceHigh()
+        public virtual void SortingTheResultListByPriceHigh()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Sortiing the result list by price \"Price (high)\"", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Sorting the result list by \"Price (high)\"", ((string[])(null)));
 #line 13
 this.ScenarioSetup(scenarioInfo);
 #line 6
