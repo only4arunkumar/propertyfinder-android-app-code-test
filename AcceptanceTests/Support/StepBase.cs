@@ -16,7 +16,7 @@ namespace AcceptanceTests.Support
         {
             if (ScenarioContext.Current.TestError != null)
             {
-                Device.TakeScreenshotOnException(ScenarioContext.Current.ScenarioInfo.Title);
+                Device.TakeErrorScreenshot(ScenarioContext.Current.ScenarioInfo.Title);
             }      
             Device.Driver.Quit();
         }
