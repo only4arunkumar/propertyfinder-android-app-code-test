@@ -1,5 +1,3 @@
 # propertyfinder-android-app-code-test
 
-C#/SpecFlow Code test
-
-Using Appium: http://appium.io/
+Example C# and Appium acceptance test project using the propertyfinder android app http://play.google.com/store/apps/details?id=ae.propertyfinder.propertyfinder&hl=en
