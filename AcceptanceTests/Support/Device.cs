@@ -12,7 +12,7 @@ namespace AcceptanceTests.Support
     {
         public static AppiumDriver<AppiumWebElement> Driver { get; private set; }
 
-        public static void TakeScreenshotOnException(string title)
+        public static void TakeErrorScreenshot(string title)
         {
             var timestamp = DateTime.Now.ToString("dd-MMM-yyyy hh.mm.ss");
             var currentDir = Environment.CurrentDirectory;
