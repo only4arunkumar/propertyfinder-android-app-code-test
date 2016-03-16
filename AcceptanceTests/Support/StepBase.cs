@@ -15,9 +15,8 @@ namespace AcceptanceTests.Support
         public void AfterScenario()
         {
             if (ScenarioContext.Current.TestError != null)
-            {
                 Device.TakeErrorScreenshot(ScenarioContext.Current.ScenarioInfo.Title);
-            }      
+                
             Device.Driver.Quit();
         }
     }
