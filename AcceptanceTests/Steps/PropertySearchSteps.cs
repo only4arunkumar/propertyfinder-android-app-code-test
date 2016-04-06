@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 using TechTalk.SpecFlow;
 using AcceptanceTests.Support;
 using AcceptanceTests.ScreenObjects;
@@ -20,7 +20,8 @@ namespace AcceptanceTests.Steps
             App.Screen<MenuBar>().SearchSettingsButton.Click();
             App.Screen<MenuBar>().ClearSettingsButton.Click();
             App.Screen<SearchSettings>().BedroomSettings.Click();
-            App.Screen<Options>().SelectOption(numberOfBedrroms)
+            App.Screen<Options>()
+                .SelectOption(numberOfBedrroms)
                 .OkButton.Click();
             App.Screen<MenuBar>().BackButton.Click();
         }
